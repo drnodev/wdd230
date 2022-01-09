@@ -1,0 +1,24 @@
+body{
+    width: 600px;
+    margin: 0 auto !important; 
+}
+footer,header{
+    background-color: steelblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    box-shadow: 1px 5px 5px black;
+}
+footer{
+    display: block;
+    align-items: center;
+    color: white;
+    margin: 0 auto !important; 
+}
+img{
+    box-shadow: 1px 5px 5px black;
+}
+#lu{
+    color:yellow
+}
