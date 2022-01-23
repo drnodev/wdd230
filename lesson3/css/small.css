@@ -84,3 +84,28 @@ footer {
   display: table;
   clear: both;
 }
+
+.place {
+  line-height: 3rem;
+}
+
+.c3 {
+  background-color: rgb(232, 240, 242);
+}
+.c2 {
+  background-color: rgb(162, 219, 250);
+}
+.c1 {
+  background-color: rgb(57, 162, 219);
+}
+.c0 {
+  background-color: rgb(5, 55, 66);
+  color: #fff;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+
+.font-family {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
