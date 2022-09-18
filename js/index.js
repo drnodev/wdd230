@@ -1,4 +1,4 @@
-var year = new Date();
-document.getElementById("year").innerHTML = year.getFullYear()
+let year = new Date();
 
-document.getElementById("lu").innerHTML = new Date(document.lastModified)
+document.querySelector("#year").innerHTML = year.getFullYear();
+document.getElementById("lu").innerHTML = new Date(document.lastModified);
