@@ -1,0 +1,27 @@
+@media only screen and (min-width: 1028px) {
+  main,
+  nav,
+  header,
+  footer {
+    max-width: 75%;
+    margin: auto;
+  }
+
+  nav ul {
+    padding-left: 2%;
+  }
+  nav ul li {
+    flex-basis: auto;
+  }
+  nav a {
+    padding: 0.5rem 1rem;
+  }
+
+  main figure {
+    width: 31%;
+  }
+
+  div.news {
+    column-count: 3;
+  }
+} /** end media query*/
