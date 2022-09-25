@@ -1,0 +1,8 @@
+@media only screen and (min-width: 1028px) {
+
+    header, footer, main {max-width: 50rem; margin: auto;}
+
+    .cards-grid {grid-template-columns: 1fr 1fr 1fr;}
+
+    .third-card {grid-column: 3/4;}
+}
