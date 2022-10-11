@@ -1,0 +1,45 @@
+footer{
+  font-size: 1.2em;
+ 
+}
+.base-footer{
+ flex-direction: column;
+}
+
+.wrapper{
+  display: grid;
+}
+#hero{
+  display: flex;
+  grid-row: 1/2;
+}
+
+#event {
+  display: flex;
+  grid-row: 2/3;
+}
+
+#weather {
+  display: flex;
+  grid-row: 3/4;
+}
+
+#new-release{
+  display: flex;
+  grid-row: 4/5;
+}
+#spotlight1{
+  grid-row: 5/6;
+}
+
+#spotlight2{
+  grid-row: 6/7;
+}
+
+#join {
+  grid-row: 7/8;
+}
+
+
+
+

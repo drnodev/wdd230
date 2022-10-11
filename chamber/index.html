@@ -9,16 +9,10 @@
     <title>Strategic Trading</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-
-
-
-    <!-- STYLE SHEETS -->
     <link href="css/normalize.css" rel="stylesheet">
-    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
     <link href="css/base.css" rel="stylesheet">
-    <!-- enhance-tablet -->
     <link href="css/medium.css" rel="stylesheet">
-    <!-- enhance-desktop -->
     <link href="css/large.css" rel="stylesheet">
 
 
@@ -28,9 +22,11 @@
 <body>
     <!-- HEADER HERE -->
     <header class="clearfix">
-        <img src="./images/logo.png" alt="logo">
-        <h1>Strategic Trading</h1>
-        <h2>We are your best option</h2>
+        <div class="logo">
+            <img src="./images/logo.png" alt="Strategic Trading logo">
+            <h1>Strategic Trading</h1>
+            <h2>We are your best option</h2>
+        </div>
         <div class="date"><span id="date"></span></div>
     </header>
 
@@ -42,8 +38,8 @@
             <span>X</span>
         </button>
         <ul id="main-nav">
-            <li><a href="#">Home</a></li>
-            <li class="active"><a href="#">Products</a></li>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
             <li><a href="#">Location</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
@@ -52,51 +48,57 @@
 
     <!-- CONTENT HERE -->
     <main>
-        <h1>Page Title</h1>
-        <div class="section">
-            <p>Hero with site name and call to action</p>
+        <h1 class="title">Page Title</h1>
+        <div class="wrapper">
+            <div class="section" id="event">
+                <p>Event</p>
+            </div>
+            <div class="section" id="weather">
+                <p>weather</p>
+            </div>
+            <div class="section" id="join">
+                <p>Join</p>
+            </div>
+            <div class="section" id="hero">
+                <p>Hero with site name and call to action</p>
+            </div>
+            <div class="section" id="new-release">
+                <p>news release</p>
+            </div>
+            <div class="section" id="#spotlight1">
+                <p>spotlight 1</p>
+            </div>
+            <div class="section" id="spotlight2">
+                <p>spotlight 2</p>
+            </div>
         </div>
-
-        <div class="section">
-            <p>Event</p>
-        </div>
-
-        <div class="section">
-            <p>weather</p>
-        </div>
-
-        <div class="section">
-            <p>news release</p>
-        </div>
-
-
-        <div class="section">
-            <p>spotlight 1</p>
-        </div>
-
-
-        <div class="section">
-            <p>spotlight 2</p>
-        </div>
-
     </main>
 
     <!-- FOOTER HERE -->
     <footer>
-        <img src="./images/logo.png" alt="logo">
         <div class="addr">
-            <p>Strategic Trading</p>
-            <p>48 King St, Roswell, GA 30075, USA</p>
+            <picture>
+                <img src="./images/logo.png" alt="Strategic Trading logo">
+            </picture>
+            <div class="addr-text">
+                <p>Strategic Trading</p>
+                <p>48 King St, Roswell, GA 30075, USA</p>
+            </div>
         </div>
         <div class="contact-info">
             <p>info@strategictrading.com</p>
             <p>+(223) 555-1234</p>
             <p><a href="https://goo.gl/maps/Sw4XHxREavyqs8bp6">Link to map</a></p>
         </div>
-        <p>
-            &copy; 2022 Strategic Trading | Nelson Ortega | WDD 230 Project | Last Modificaction <span
-                id="lastmod"></span>
-        </p>
+        <div class="base-footer">
+            <p>&copy; 2022 Strategic Trading</p>
+            <p class="pipe"></p>
+            <p>Nelson Ortega</p>
+            <p class="pipe"></p>
+            <p>WDD 230 Project</p>
+            <p class="pipe"></p>
+            <p>Last Modificaction <span id="lastmod"></span></p>
+        </div>
     </footer>
 
     <script src="js/main.js"></script>
