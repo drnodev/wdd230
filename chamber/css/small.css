@@ -1,3 +1,6 @@
+body{
+  text-align: center;
+}
 footer{
   font-size: 1.2em;
  
@@ -9,14 +12,29 @@ footer{
 .wrapper{
   display: grid;
 }
+
 #hero{
   display: flex;
+  flex-direction: column;
   grid-row: 1/2;
+  background-image: url(../images/boats.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  zoom: -1%;
+  font-size: 1.5em;
+  color: #FFF;
+}
+
+#hero h2 {
+  text-align: center;
+  margin: 2em auto; 
 }
 
 #event {
   display: flex;
   grid-row: 2/3;
+  color: #000;
+  font-weight: bold;
 }
 
 #weather {
@@ -40,6 +58,44 @@ footer{
   grid-row: 7/8;
 }
 
+button{
+  background-color: #39A2DB;
+  display: block;
+  border: none;
+  border-radius: 5px 5px;
+  padding: 0.5em;
+}
+
+#hero button{
+  text-align: center;
+  margin: 0 auto;
+  color: #FFF;
+}
+
+#hero button:hover{
+  background-color: #A2DBFA;
+  cursor: pointer;
+}
+
+#event div{
+  margin: auto auto;
+  text-align: center;
+  align-items: center;
+}
+
+#event button{
+  background-color: #053742;
+  color:#FFF;
+  text-align: center;
+  margin: 1em auto;
+}
 
 
+#event button:hover{
+  cursor: pointer;
+  background-color: #A2DBFA;
+}
 
+hr{
+  margin: 0;
+}
