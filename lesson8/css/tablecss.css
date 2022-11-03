@@ -9,11 +9,16 @@
 	--zebra: hsl(0, 0%, 80%, 1);
 }
 
+h1{
+    margin: 0 auto;
+    text-align: center;
+}
 table {
 	margin: 10px auto;
 	border: thin solid var(--border);
 	box-shadow: 0 0 30px var(--shadow);
 	border-collapse: collapse;
+    width: 30%;
 }
 
 caption {
@@ -53,7 +58,9 @@ tbody tr:nth-child(even) {
 only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
     
-   
+    table{
+        width: 100%;
+    }
 
     table, thead, tbody, th, td, tr { 
 		display: block; 
@@ -89,5 +96,6 @@ only screen and (max-width: 760px),
     .caption-smallview{visibility:visible; text-align: center;}
     .cap-title{
         position: sticky;
+        font-size: .85rem;
     }
 }
