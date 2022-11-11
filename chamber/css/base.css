@@ -18,6 +18,7 @@ html {
 /*----------- HEADER --------------*/
 header {
   padding: 0.8rem 2vw;
+  background-color: #E8F0F2;
 }
 
 header h1 {
@@ -103,6 +104,7 @@ nav ul li.active a {
   min-height: 5rem;
   border: 1px solid rgba(0, 0, 0, 0.5);
   font-weight: bold;
+  background-color: #39A2DB;
 }
 
 footer img {
@@ -113,7 +115,7 @@ footer img {
 
 footer{
   text-align: center;
-  background-color: #39A2DB;
+  background-color: #E8F0F2;
   color: #000;
 }
 
@@ -122,7 +124,7 @@ footer a{
 }
 
 .base-footer{
-  border-top: 1px solid #E8F0F2;
+  border-top: 1px solid #CCC;
   padding-bottom: 1em;
   padding-top: 1em;
   display: flex;
@@ -134,6 +136,10 @@ footer a{
   padding-bottom: 1em;
 }
 
-main{
-  background-color: #39A2DB;
+
+main,nav {
+  display: flex;
+  justify-content: center;
 }
+
+

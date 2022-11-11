@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  main {
+    text-align: center;
+  }
+  h1, footer {
+    background-image: linear-gradient(180deg, #fff, #c2dcff, #aacefd);
+    color: rgb(1, 138, 250);
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding-bottom: 0.5em;
+  }
+  section {
+    background-color: #f7f6f5;
+    border: 2px solid #206dfc;
+    margin: 5% 5%;
+    break-inside: avoid-column;;
+  }
+  h2, h3, p {
+    line-height: 1em;
+  }
+  img {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 5%;
+  }
+  footer {
+    font-size: 1em;
+    padding: 1.2em;
+    border-top: 2px solid rgb(49, 131, 255);
+    margin-top: 5%;
+    color:#000;
+  }
+  /**********************************************/
+  @media only screen and (min-width: 32em){
+    .cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    section {
+      margin-top: 0;
+    }
+  }
+  /********************Large********************/
+  @media only screen and (min-width: 64em){
+    .cards {
+      grid-template-columns: repeat(5, 1fr);
+    }
+    
+  }
