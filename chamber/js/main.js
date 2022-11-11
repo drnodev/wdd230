@@ -1,5 +1,14 @@
 
-const apiWeather= "https://api.openweathermap.org/data/2.5/weather?lat=34.022003&lon=-84.361549&appid=920c6288bdbd30f49daec29c2657439c";
+let dt = new Date();
+let day = dt.getDay();
+let msg = document.querySelector("#msg");
+
+
+if (day == 1 || day == 2) {
+  msg.classList.add("show");
+} else {
+  msg.classList.add("hide");
+}
 
 
 function toggleMenu(){
@@ -10,12 +19,7 @@ function toggleMenu(){
 const hamburgerBtn = document.getElementById("hamburger-btn");
 hamburgerBtn.onclick = toggleMenu;
  
-const dt = new Date();
+
 document.querySelector("#date").innerHTML = dt.toDateString()   
 document.querySelector("#lastmod").innerHTML = document.lastModified
 
-fetch(apiWeather)
-.then(resp => resp.json())
-.then(json => {
-      console.log(json)  
-})

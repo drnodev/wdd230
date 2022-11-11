@@ -103,7 +103,6 @@ nav ul li.active a {
 .section {
   min-height: 5rem;
   border: 1px solid rgba(0, 0, 0, 0.5);
-  font-weight: bold;
   background-color: #39A2DB;
 }
 
