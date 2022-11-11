@@ -192,3 +192,27 @@ button{
 .more-info:hover{
   text-decoration: underline;
 }
+
+
+.discover h1{
+  padding-top: 1.5em;
+}
+.discover p{
+  max-width: 910px;
+  margin: 0 auto;
+  background-color: #053742;
+  padding: 1.5em;
+  color: #FFF;
+  text-align: left;
+}
+.discover article{
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 2.5em;
+  background-color: #053742;
+  padding-top: 1.5em;
+}
+.discover article p{
+  color: #FFF;
+  padding: 1.5em;
+}
