@@ -216,3 +216,13 @@ button{
   color: #FFF;
   padding: 1.5em;
 }
+
+.discover img{
+  filter: blur(0em);
+  transition: filter 3.5s;
+}
+
+.discover img[data-src] {
+  filter: blur(0.2em);
+}
+
