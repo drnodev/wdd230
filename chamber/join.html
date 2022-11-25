@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+    content="The objective of Strategic Trading is to be an ally of those small businesses that are dedicated to fishing and the breeding of fish and shrimp, we seek to market the products locally and also to be able to export them.">
+  <meta name="author" content="Nelson Ortega">
+  <title>Strategic Trading - Discover</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+
+
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/base.css" rel="stylesheet">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+  <!-- HEADER HERE -->
+  <p id="msg">
+    🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+  </p>
+
+  <header class="clearfix">
+    <div class="logo">
+      <img src="./images/logo.webp" alt="Strategic Trading logo">
+      <h1>Strategic Trading</h1>
+      <h2>We are your best option</h2>
+    </div>
+    <div class="date"><span id="date"></span></div>
+  </header>
+
+
+  <!-- NAVIGATION HERE -->
+  <nav>
+
+    <button id="hamburger-btn">
+      <span>&#9776;</span>
+      <span>X</span>
+    </button>
+    <ul id="main-nav">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./discover.html">Discover</a></li>
+      <li><a href="#">Location</a></li>
+      <li class="active"><a href="./join.html">Join</a></li>
+    </ul>
+  </nav>
+
+  <main class="join">
+    <h1>Join the Chamber</h1>
+    <div class="wrapp-form">
+      <form method="get" action="./thankyou.html">
+        <fieldset>
+          <h2>Business Application</h2>
+          <label >First Name* <input type="text" name="firstName" required /></label>
+          <label >Last Name* <input type="text" name="lastName" required /></label>
+          <label >Business Position Title <input type="text" name="title" pattern="[a-zA-Z-\s]{7,}" /></label>
+          <label >Email* <input type="email" name="email" placeholder="example@example.com" required /></label>
+          <label >Phone* <input type="tel" name="phone" required /></label>
+          <label >Business Name* <input type="text" name="business" required /></label>
+          <label >Business Description <input type="text" name="description" placeholder="Briefly describe your business" /></label>
+          <label >Choose a Membership Level <select>
+              <option value="Non-Profit">Non-Profit</option>
+              <option value="Bronze">Bronze</option>
+              <option value="Silver">Silver</option>
+              <option value="Gold">Gold</option>
+          </select> </label>
+          <button type="submit" name="btn" class="btn-join-us">Join the Chamber</button>
+        </fieldset>
+      </form>
+      <aside>
+        <h2>Membership Levels</h2>
+        <div id="free">
+          <h3>Non-Profit - Free</h3>
+          <p>Join the Chamber for free. Have your business posted in the directory.</p>
+        </div>
+        <div id="bronze">
+          <h3>Bronze - $500</h3>
+          <p>Non-Profit Perks + be apart of events + option for a business advisor.</p>
+        </div>
+        <div id="silver">
+          <h3>Silver - $1000</h3>
+          <p>Bronze package + be included in the spotlights on the home page + gain community exposure.</p>
+        </div>
+        <div id="gold">
+          <h3>Gold - $2000</h3>
+          <p>Silver membership + enjoy all the benefits of a full membership from having your business on the home page to free advertising, chamber discounts, and other opportunities for business growth.</p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- FOOTER HERE -->
+  <footer class="clearfix">
+    <div class="addr">
+      <picture>
+        <img src="./images/logo.webp" alt="Strategic Trading logo">
+      </picture>
+      <div class="addr-text">
+        <p>Strategic Trading</p>
+        <p>48 King St, Roswell, GA 30075, USA</p>
+      </div>
+    </div>
+    <div class="contact-info">
+      <p>info@strategictrading.com</p>
+      <p>+(223) 555-1234</p>
+      <p><a href="https://goo.gl/maps/Sw4XHxREavyqs8bp6">Link to map</a></p>
+    </div>
+
+    <div class="base-footer">
+      <p>&copy; 2022 Strategic Trading</p>
+      <p class="pipe"></p>
+      <p>Nelson Ortega</p>
+      <p class="pipe"></p>
+      <p>WDD 230 Project</p>
+      <p class="pipe"></p>
+      <p>Last Modificaction <span id="lastmod"></span></p>
+    </div>
+  </footer>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

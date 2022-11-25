@@ -226,3 +226,79 @@ button{
   filter: blur(0.2em);
 }
 
+/*Join*/
+
+aside div#free h3 {
+  border-bottom: 2px solid #000;
+  width: 10em;
+}
+aside div#bronze h3 {
+  border-bottom: 2px solid #925430;
+  width: 8.5em;
+}
+aside div#silver h3 {
+  border-bottom: 2px solid #c4c4c4;
+  width: 8.5em;
+}
+aside div#gold h3 {
+  border-bottom: 2px solid #ffd700;
+  width: 8em;
+}
+
+
+.join{
+  max-width: 900px;
+  margin: auto;
+}
+
+.join h1{
+  margin-top: 0.5em;
+}
+
+.join form{
+  padding: 1em;
+
+}
+
+.join form input,.join form label{
+  overflow: visible;
+  display: block;
+  text-align: left;
+  margin-top: 0.5em;
+}
+
+.join form button{
+ text-align: center;
+ display: block;
+ align-content: center;
+ margin: auto;
+ color: #FFF;
+}
+
+.join form input{
+  width: 100%;
+  padding: 0.2em;
+}
+
+.join form select{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.join form input[required]{
+  border-left: 4px solid #A2DBFA;
+}
+
+
+.wrapp-form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+aside{
+  text-align: justify;
+}
+
+.join{
+  min-height: 600px;
+}
