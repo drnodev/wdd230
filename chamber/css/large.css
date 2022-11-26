@@ -194,8 +194,8 @@ hr{
 
 #gridMode,
 #listMode {
-  background-color: #053742;
-  border: 2px solid #34ddff;
+  background-color: #FFF;
+  border: 2px solid #ccc;
   border-radius: 8px;
   width: 3em;
   height: 3em;
@@ -208,7 +208,7 @@ hr{
 
 #gridMode:hover,
 #listMode:hover {
-  background-color: #434dda;
+  background-color: #053742;
 }
 /*****************GRID MODE*******************/
 .grid section {
@@ -220,14 +220,18 @@ hr{
   height: auto;
   margin: auto;
 }
+/*
 .grid section:nth-of-type(9) img {
   width: 100%;
 }
+*/
 /**************LIST MODE**********************/
 .lst section {
   margin: 0;
   padding: 2%;
-  text-align: left;
+  border: 1px solid #ccc;
+  text-align: center;
+  align-items: center;
 }
 .lst section:nth-child(even) {
   background-color: #ecddc1;
