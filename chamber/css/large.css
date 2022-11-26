@@ -120,13 +120,13 @@ hr{
 #weather img{
   margin-top: 1.2em;
   display: block;
-  width: 90%;
+  width: 90px;
 }
 
 #weather .temp{
   display: block;
   font-weight: bold;
-  font-size: 2.3em;
+  font-size: 1.9em;
   margin-top: 1.2em;
 }
 
