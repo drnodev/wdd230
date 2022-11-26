@@ -27,14 +27,13 @@ function displayCos(co) {
   p.textContent = co.address;
   phone.textContent = co.phone;
 
-  a.textContent = co.site;
-  a.setAttribute("href", "#");
+
 
   singleCo.appendChild(img);
   singleCo.appendChild(h2);
   singleCo.appendChild(p);
   singleCo.appendChild(phone);
-  singleCo.appendChild(a);
+
 
   shops.appendChild(singleCo);
   lazyload();

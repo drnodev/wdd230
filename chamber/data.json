@@ -27,6 +27,41 @@
             "caption":"Vivamus laoreet ullamcorper elit, a malesuada erat viverra tempus. Praesent auctor, magna a consectetur venenatis, diam odio consectetur mauris, sed vulputate justo purus ac elit. Praesent at ornare dolor.",
             "img":"./images/directory/04.jpeg",
             "phone":"7828-6905"
+        },
+        {
+            "name":"Brisas del Sur La Colorada de RL",
+            "address":"Caserío La Colorada, Cantón San Rafael Tasajera, La Paz",
+            "caption":"Vivamus laoreet ullamcorper elit, a malesuada erat viverra tempus. Praesent auctor, magna a consectetur venenatis, diam odio consectetur mauris, sed vulputate justo purus ac elit. Praesent at ornare dolor.",
+            "img":"./images/directory/05.jpeg",
+            "phone":"7828-6905"
+        },
+        {
+            "name":"Brisas del Sur La Colorada de RL",
+            "address":"Caserío La Colorada, Cantón San Rafael Tasajera, La Paz",
+            "caption":"Vivamus laoreet ullamcorper elit, a malesuada erat viverra tempus. Praesent auctor, magna a consectetur venenatis, diam odio consectetur mauris, sed vulputate justo purus ac elit. Praesent at ornare dolor.",
+            "img":"./images/directory/06.jpeg",
+            "phone":"7828-6905"
+        },
+        {
+            "name":"Brisas del Sur La Colorada de RL",
+            "address":"Caserío La Colorada, Cantón San Rafael Tasajera, La Paz",
+            "caption":"Vivamus laoreet ullamcorper elit, a malesuada erat viverra tempus. Praesent auctor, magna a consectetur venenatis, diam odio consectetur mauris, sed vulputate justo purus ac elit. Praesent at ornare dolor.",
+            "img":"./images/directory/07.jpeg",
+            "phone":"7828-6905"
+        },
+        {
+            "name":"Brisas del Sur La Colorada de RL",
+            "address":"Caserío La Colorada, Cantón San Rafael Tasajera, La Paz",
+            "caption":"Vivamus laoreet ullamcorper elit, a malesuada erat viverra tempus. Praesent auctor, magna a consectetur venenatis, diam odio consectetur mauris, sed vulputate justo purus ac elit. Praesent at ornare dolor.",
+            "img":"./images/directory/08.jpeg",
+            "phone":"7828-6905"
+        },
+        {
+            "name":"Brisas del Sur La Colorada de RL",
+            "address":"Caserío La Colorada, Cantón San Rafael Tasajera, La Paz",
+            "caption":"Vivamus laoreet ullamcorper elit, a malesuada erat viverra tempus. Praesent auctor, magna a consectetur venenatis, diam odio consectetur mauris, sed vulputate justo purus ac elit. Praesent at ornare dolor.",
+            "img":"./images/directory/09.jpeg",
+            "phone":"7828-6905"
         }
     ]
 }

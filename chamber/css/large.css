@@ -191,4 +191,54 @@ hr{
 #spotlight1 p,#spotlight2 p{
   margin-top: 0.5em;
 }
+
+#gridMode,
+#listMode {
+  background-color: #053742;
+  border: 2px solid #34ddff;
+  border-radius: 8px;
+  width: 3em;
+  height: 3em;
+  margin: 0 1em 1em;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+}
+
+#gridMode:hover,
+#listMode:hover {
+  background-color: #434dda;
+}
+/*****************GRID MODE*******************/
+.grid section {
+  text-align: center;
+  padding: 1em;
+}
+.grid img {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+.grid section:nth-of-type(9) img {
+  width: 100%;
+}
+/**************LIST MODE**********************/
+.lst section {
+  margin: 0;
+  padding: 2%;
+  text-align: left;
+}
+.lst section:nth-child(even) {
+  background-color: #ecddc1;
+}
+.lst h2 {
+  color: #000;
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0;
+}
+.lst img {
+  display: none;
+}
 }
