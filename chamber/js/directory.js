@@ -16,7 +16,7 @@ function displayCos(co) {
   let h2 = document.createElement("h2");
   let p = document.createElement("p");
   let phone = document.createElement("p");
-  let a = document.createElement("a");
+  
 
   img.setAttribute("data-src", co.img);
   img.setAttribute("alt", co.name);
