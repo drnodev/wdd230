@@ -1,0 +1,32 @@
+{"companies":
+    [
+        {
+            "name":"Las Barrenitas de RL",
+            "address":"Barra de Santiago Caserío El Espino, Ahuachapán",
+            "caption":"Pellentesque ultrices auctor iaculis. Curabitur augue orci, luctus nec urna condimentum, facilisis posuere metus. Mauris ante nibh, consequat in interdum ac, consequat ut est. Phasellus finibus mattis libero non congue.",
+            "img":"./images/directory/01.jpeg",
+            "phone":"2427-8110"
+        },
+        {
+            "name":"El Pargo de RL",
+            "address":"San Francisco El Porfiado, La Paz",
+            "caption":"Suspendisse nec sem in ipsum auctor accumsan ut eu massa. Phasellus augue risus, vestibulum id eleifend id, aliquam et ipsum. Integer vitae dui sed dolor venenatis vehicula id et nunc. Donec varius mi vitae tristique dictum.",
+            "img":"./images/directory/02.jpeg",
+            "phone":"7757-2851"
+        },
+        {
+            "name":"Mar del Pacifico de RL",
+            "address":"Playa San Marcelino, La Paz",
+            "caption":"Cras eget sollicitudin nibh. Proin feugiat egestas risus, eget convallis ipsum mattis id. Sed in magna sed purus interdum mollis eu quis dolor.",
+            "img":"./images/directory/03.jpeg",
+            "phone":"7432-9328"
+        },
+        {
+            "name":"Brisas del Sur La Colorada de RL",
+            "address":"Caserío La Colorada, Cantón San Rafael Tasajera, La Paz",
+            "caption":"Vivamus laoreet ullamcorper elit, a malesuada erat viverra tempus. Praesent auctor, magna a consectetur venenatis, diam odio consectetur mauris, sed vulputate justo purus ac elit. Praesent at ornare dolor.",
+            "img":"./images/directory/04.jpeg",
+            "phone":"7828-6905"
+        }
+    ]
+}
