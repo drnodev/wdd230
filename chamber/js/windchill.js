@@ -1,4 +1,4 @@
-const url = "https://api.openweathermap.org/data/2.5/weather?lat=13.6894&lon=-89.1872&appid=7ebac52f9b380f5e630aaa22ef18396a";
+const url = "https://api.openweathermap.org/data/2.5/weather?lat=13.6894&lon=-89.1872&units=imperial&appid=7ebac52f9b380f5e630aaa22ef18396a";
 
 async function apiFetch() {
     try {
@@ -25,7 +25,7 @@ async function apiFetch() {
     img.setAttribute("src",`https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`)
     document.getElementById("temp").innerHTML = weatherData.main.temp;
     document.getElementById("speed").innerHTML = weatherData.wind.speed;
-
+console.log(weatherData)
 
     const temp = parseFloat(weatherData.main.temp);
     const speed = parseFloat(weatherData.wind.speed);

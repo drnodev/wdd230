@@ -51,23 +51,59 @@
         <ul id="main-nav">
             <li><a href="./index.html">Home</a></li>
             <li><a href="./discover.html">Discover</a></li>
-            <li class="active"><a href="./directory.html">Directory</a></li>
+            <li><a href="./directory.html">Directory</a></li>
             <li><a href="./join.html">Join</a></li>
-            <li><a href="./contact.html">Contact</a></li>
+            <li class="active"><a href="./contact.html">Contact</a></li>
         </ul>
     </nav>
 
-    <main class="directory">
-        <h1>Directory</h1>
-        <div class="btns">
-            <button id="gridMode">
-                <img src="images/directory/grid-sv.svg" alt="grid icon" width="20" height="20" />
-            </button>
-            <button id="listMode">
-                <img src="images/directory/list-sv.svg" alt="list icon" width="20" height="20" />
-            </button>
+    <main class="contact">
+        <h1>Contact</h1>
+        <div class="wrapper-contact">
+            <div class="contact-form">
+                <h2>Contact Form</h2>
+                <form method="get">
+                    <div>
+                        <label for="name">Name*</label>
+                        <input name="name" id="name" type="text">
+                    </div>
+                    <div>
+                        <label for="email">Email Address *</label>
+                        <input name="email" id="email" type="email">
+                    </div>
+                    <div>
+                        <label for="question">Question/Concern *</label>
+                        <textarea name="question" id="question"></textarea>
+                    </div>
+                    <div>
+                        <button>Submit</button>
+                    </div>
+                </form>
+
+            </div>
+            <div class="conact-info">
+                <h2>Contact us</h2>
+                <div>
+                    <p><strong>Address</strong></p>
+                    <p>
+                        American Fork Chamber of Commerce<br>
+                        31 N Church Street<br>
+                        American Fork, Utah<br>
+                    </p>
+                </div>
+                <div>
+                    <p><strong>Phone</strong></p>
+                    <p>801-472-7467</p>
+                    <p><strong>Email</strong></p>
+                    <p>chamber@americanfork.gov</p>
+                </div>
+                <div>
+                    <iframe width="425" height="100" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=-89.35764312744142%2C13.78527837944899%2C-89.33554172515869%2C13.798719531519533&amp;layer=mapnik&amp;marker=13.791999052238166%2C-89.34659242630005"
+                        style="border: 1px solid black"></iframe>
+                </div>
+            </div>
         </div>
-        <div class="shops grid" id="on"></div>
     </main>
 
     <!-- FOOTER HERE -->
@@ -98,7 +134,6 @@
         </div>
     </footer>
     <script src="./js/main.js"></script>
-    <script src="./js/directory.js"></script>
 </body>
 
 </html>
