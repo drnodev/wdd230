@@ -30,7 +30,7 @@
             "caption":"Vivamus laoreet ullamcorper elit, a malesuada erat viverra tempus. Praesent auctor, magna a consectetur venenatis, diam odio consectetur mauris, sed vulputate justo purus ac elit. Praesent at ornare dolor.",
             "img":"./images/directory/04.jpeg",
             "phone":"7828-6905",
-            "status":"Bronze"
+            "status":"silver"
         },
         {
             "name":"Las Gaviotas de RL",
@@ -46,7 +46,7 @@
             "caption":"Vivamus laoreet ullamcorper elit, a malesuada erat viverra tempus. Praesent auctor, magna a consectetur venenatis, diam odio consectetur mauris, sed vulputate justo purus ac elit. Praesent at ornare dolor.",
             "img":"./images/directory/06.jpeg",
             "phone":"7828-6905",
-            "status":"Non-Profit"
+            "status":"silver"
         },
         {
             "name":"Pescadores del Puerto de La Libertad de RL",
