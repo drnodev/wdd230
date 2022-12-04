@@ -5,63 +5,72 @@
             "address":"Barra de Santiago Caserío El Espino, Ahuachapán",
             "caption":"Pellentesque ultrices auctor iaculis. Curabitur augue orci, luctus nec urna condimentum, facilisis posuere metus. Mauris ante nibh, consequat in interdum ac, consequat ut est. Phasellus finibus mattis libero non congue.",
             "img":"./images/directory/01.jpeg",
-            "phone":"2427-8110"
+            "phone":"+503 2427-8110",
+            "status":"gold"
         },
         {
             "name":"El Pargo de RL",
             "address":"San Francisco El Porfiado, La Paz",
             "caption":"Suspendisse nec sem in ipsum auctor accumsan ut eu massa. Phasellus augue risus, vestibulum id eleifend id, aliquam et ipsum. Integer vitae dui sed dolor venenatis vehicula id et nunc. Donec varius mi vitae tristique dictum.",
             "img":"./images/directory/02.jpeg",
-            "phone":"7757-2851"
+            "phone":"7757-2851",
+            "status":"Bronze"
         },
         {
             "name":"Mar del Pacifico de RL",
             "address":"Playa San Marcelino, La Paz",
             "caption":"Cras eget sollicitudin nibh. Proin feugiat egestas risus, eget convallis ipsum mattis id. Sed in magna sed purus interdum mollis eu quis dolor.",
             "img":"./images/directory/03.jpeg",
-            "phone":"7432-9328"
+            "phone":"7432-9328",
+            "status":"Bronze"
         },
         {
             "name":"Brisas del Sur La Colorada de RL",
             "address":"Caserío La Colorada, Cantón San Rafael Tasajera, La Paz",
             "caption":"Vivamus laoreet ullamcorper elit, a malesuada erat viverra tempus. Praesent auctor, magna a consectetur venenatis, diam odio consectetur mauris, sed vulputate justo purus ac elit. Praesent at ornare dolor.",
             "img":"./images/directory/04.jpeg",
-            "phone":"7828-6905"
+            "phone":"7828-6905",
+            "status":"Bronze"
         },
         {
             "name":"Las Gaviotas de RL",
             "address":"Isla de Méndez, Usulutan",
             "caption":"Praesent vitae laoreet nunc. Aenean malesuada sapien sodales, cursus tortor vel, imperdiet lorem.",
             "img":"./images/directory/05.jpeg",
-            "phone":"7220-5735"
+            "phone":"7220-5735",
+            "status":"Bronze"
         },
         {
             "name":"Brisas del Sur La Colorada de RL",
             "address":"Caserío La Colorada, Cantón San Rafael Tasajera, La Paz",
             "caption":"Vivamus laoreet ullamcorper elit, a malesuada erat viverra tempus. Praesent auctor, magna a consectetur venenatis, diam odio consectetur mauris, sed vulputate justo purus ac elit. Praesent at ornare dolor.",
             "img":"./images/directory/06.jpeg",
-            "phone":"7828-6905"
+            "phone":"7828-6905",
+            "status":"Non-Profit"
         },
         {
             "name":"Pescadores del Puerto de La Libertad de RL",
             "address":"2° Calle26-6, Poniente, La Libertad",
             "caption":"Phasellus sed tortor non lectus molestie tincidunt. Aenean aliquam tortor a interdum rhoncus. Nunc eget pretium lectus, nec euismod enim.",
             "img":"./images/directory/07.jpeg",
-            "phone":"7366-1266"
+            "phone":"7366-1266",
+            "status":"Non-Profit"
         },
         {
             "name":"Producción Pesquera Rio Lempa de Responsabilidad Limitada",
             "address":"Final Calle del Caserío La Pita, Cantón Las Mesas, San Vicente",
             "caption":"Duis scelerisque orci ut velit volutpat, ut lobortis nibh cursus. Quisque maximus, massa eget posuere rhoncus, dui est iaculis metus, in venenatis est sapien a est.",
             "img":"./images/directory/08.jpeg",
-            "phone":"7235-3668"
+            "phone":"7235-3668",
+            "status":"Non-Profit"
         },
         {
             "name":"Pesquera Amigos de Metalio de RL",
             "address":"Caserío Costa Azul N° 85, Cantón Metalío, Sonsonate",
             "caption":"Curabitur cursus, risus eget tempus porta, lectus diam tristique est, eu vulputate nibh tortor in mi.",
             "img":"./images/directory/09.jpeg",
-            "phone":"7646-4135"
+            "phone":"+503 7646-4135",
+            "status":"gold"
         }
     ]
 }
