@@ -1,0 +1,62 @@
+@media only screen and (min-width: 32.5rem){
+.call p {
+  padding: 1em;
+  width: 15em;
+  text-align: right;
+  font-size: 1.5em;
+  margin:0;
+  padding-left: 18%;
+  bottom: 6em;
+}
+.home {
+display: grid;
+grid-template-columns: 1fr 1fr;
+column-gap: 1em;
+}
+.forecast {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.forecast h3 {
+  grid-column: 1 / 4;
+  padding: 2%;
+}
+.temple {
+  grid-row: 2 / 4;
+}
+.img-ju {
+  padding: 1em;
+}
+
+.homeContact {
+  grid-row: 2 / 3;
+}
+.currentWeather {
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+footer .logo {
+  grid-row: 1 / 2;
+}
+footer p:nth-of-type(1) {
+  grid-column: 1 / 2;
+}
+footer form {
+  grid-row: 1 / 3;
+  margin-top: 1.5em;
+}
+footer label {
+  margin: auto;
+  padding-right: 1em;
+}
+#lastMod {
+  grid-column: 1 / 3;
+  grid-row: 3 / 4;
+  margin-top: 2em;
+}
+}

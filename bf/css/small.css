@@ -1,0 +1,193 @@
+:root {
+  --main: #545554;
+  --accent1: #FFA500;
+  --accent2: green;
+  --text: #080708;
+  --text2: #E6E8E6;
+}
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4 {
+  font-family: 'Cinzel', serif;
+}
+a, li, p, nav {
+  font-family: 'Raleway', sans-serif;
+}
+a {
+  color: var(--text2);
+}
+img {
+  width: 100%;
+  height: auto;
+}
+  header, footer {
+    background-color: var(--main);
+    color: var(--text2);
+    text-align: center;
+  }
+  .logo {
+    width: 8em;
+    margin: auto;
+    padding-top: 1em;
+  }
+  header h1 {
+    padding: 2%;
+  }
+  nav {
+    background-color: var(--accent1);
+    text-align: left;
+  }
+  nav li {
+    border: 1px solid rgba(0,0,0,0.3);
+    padding: 0.5em;
+    list-style-type: none;
+  }
+  nav li a {
+    text-decoration: none;
+    color: var(--text);
+  }
+  #btn-ham {
+    width: 2.5em;
+    height: 2.5em;
+    margin: 2%;
+    border: 2px solid var(--accent2);
+    border-radius: 0px;
+  }
+  nav li.active {
+    background-color: var(--accent2);
+  }
+  nav li:hover {
+    background-color: var(--text2)
+  }
+  #nav-header {
+    display: none;
+  }
+  #nav-header.open {
+    display: block;
+  }
+  main {
+    margin: 2%;
+  }
+  main h2 {
+    padding: 0.4em 0;
+    font-size: 1.8em;;
+  }
+  .call {
+    width: 100%;
+    height: fit-content;
+  }
+  .call img {
+    width: 100%;
+    position: relative;
+  }
+  .call p {
+    display: inline;
+    position:relative;
+    background-color: var(--main);
+    color: var(--text2);
+    font-size: 1.3em;
+    padding: 0.8em;
+    bottom: 3em;
+  }
+  section {
+    background-color: var(--text2);
+    margin: 2% 0;
+    border: 2px solid var(--accent2);
+  }
+  .temple h3, .homeContact h3 {
+    text-align: center;
+    font-size: 1.25em;
+    padding-top: 0.4em;
+  }
+  .img-ju img  {
+    padding: 2%;
+    border-bottom: 2px solid rgba(0,0,0,0.3);
+  }
+  .temple p, .homeContact p {
+    padding: 2% 3%;
+  }
+  .homeContact {
+    text-align: center;
+  }
+  .currentWeather {
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .currentWeather h3 {
+    margin: 2%;
+  }
+  .currentWeather img {
+    width: 70%;
+    padding: 2%;
+  }
+  .forecast {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0.4em;
+  }
+  .day {
+    margin: 2%;
+    padding: 2%;
+    border: 2px solid var(--accent2);
+    border-radius: 5px;
+    text-align: center;
+  }
+  .day img {
+    padding: 2%;
+    width: 70%;
+  }
+  .source a {
+    color: var(--main);
+  }
+
+
+  footer p {
+    margin-bottom: 1em;
+  }
+  footer div.logo{
+    margin-bottom: 1em;
+  }
+  footer fieldset {
+    border: none;
+    display: grid;
+    padding-right: 0;
+  }
+  footer label{
+    margin: auto;
+    padding: 1%;
+    text-align: left;
+    display: flex;
+  }
+  footer label input:not(footer label:nth-of-type(4) input) {
+    margin-left: 1.7em;
+  }
+  footer input {
+    border: 1px solid var(--accent2);
+    border-left: 5px solid var(--accent2);
+    background-color: var(--text2);
+    padding: 0.2em;
+    margin: 0 2%;
+  }
+  footer form input[type="submit"] {
+    border: 3px solid var(--accent2);
+    border-radius: 10px;
+    padding: 2%;
+    width: 18em;
+    margin: 1em auto 0;
+  }
+  .social {
+    margin: 0 auto;
+    width: 6em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0.5em;
+    min-height: 48px;
+  }
+  footer #lastMod {
+    padding-bottom: 1em;;
+  }
